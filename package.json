@@ -1,0 +1,41 @@
+{
+  "name": "broccoli-dust",
+  "version": "0.0.0",
+  "description": "Precompile Dust templates",
+  "license": "MIT",
+  "repository": "sindresorhus/broccoli-dust",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "broccoli build temp && mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "broccoli-plugin",
+    "dust",
+    "dustjs",
+    "template",
+    "templates",
+    "view",
+    "views",
+    "precompile",
+    "compile"
+  ],
+  "dependencies": {
+    "broccoli-filter": "^0.1.0",
+    "dustjs-linkedin": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "broccoli": "^0.2.0",
+    "rimraf": "^2.2.6"
+  }
+}
