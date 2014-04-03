@@ -1,4 +1,4 @@
-# [broccoli](https://github.com/joliss/broccoli)-dust [![Build Status](https://travis-ci.org/sindresorhus/broccoli-dust.png?branch=master)](https://travis-ci.org/sindresorhus/broccoli-dust)
+# [broccoli](https://github.com/joliss/broccoli)-dust [![Build Status](https://travis-ci.org/sindresorhus/broccoli-dust.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-dust)
 
 > Precompile [Dust](https://github.com/linkedin/dustjs) templates
 
@@ -7,8 +7,8 @@
 
 ## Install
 
-```
-npm install --save broccoli-dust
+```bash
+$ npm install --save broccoli-dust
 ```
 
 
@@ -41,4 +41,4 @@ tree = dust(tree, function (relativePath) {
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
