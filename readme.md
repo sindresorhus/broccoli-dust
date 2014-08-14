@@ -7,12 +7,12 @@
 
 ## Install
 
-```bash
+```sh
 $ npm install --save broccoli-dust
 ```
 
 
-## Example
+## Usage
 
 ```js
 var dust = require('broccoli-dust');
@@ -26,7 +26,7 @@ tree = dust(tree, name);
 
 #### name
 
-Type: `Function`  
+Type: `function`  
 Default: *Relative template path. Example: `templates/list.dust`*
 
 You can override the default behavior by supplying a function which gets the relative path and is expected to return the name.
@@ -41,4 +41,4 @@ tree = dust(tree, function (relativePath) {
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)
