@@ -7,8 +7,8 @@
 
 ## Install
 
-```sh
-$ npm install --save broccoli-dust
+```
+$ npm install --save-dev broccoli-dust
 ```
 
 
@@ -22,7 +22,7 @@ tree = dust(tree, name);
 
 ## API
 
-### dust(tree, name)
+### dust(tree, [name])
 
 #### name
 
@@ -38,6 +38,7 @@ tree = dust(tree, function (relativePath) {
 	return 'tpl-' + relativePath;
 });
 ```
+
 
 ## License
 
