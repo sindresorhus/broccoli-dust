@@ -7,6 +7,8 @@ function DustFilter(inputTree, name) {
 		return new DustFilter(inputTree, name);
 	}
 
+	Filter.call(this, inputTree);
+
 	this.inputTree = inputTree;
 	this.name = name;
 }
